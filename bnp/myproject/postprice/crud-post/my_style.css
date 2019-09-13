@@ -1,0 +1,26 @@
+th{
+  font-size: 18px;
+  font-family: 'Athiti', cursive;
+  
+  
+}
+td{
+  font-family: 'Athiti', sans-serif;
+}
+thead th{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+h2{
+  font-family: 'Athiti', cursive;
+  font-weight: bolder;
+  
+  text-align: center;
+  
+}
+@media print {
+  h2{
+    display: none;
+  }
+}

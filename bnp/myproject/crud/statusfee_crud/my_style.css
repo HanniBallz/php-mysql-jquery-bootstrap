@@ -1,0 +1,20 @@
+th{
+  font-size: 18px;
+  font-family: 'Sriracha', cursive;
+  color:#000099;
+  background-color: ;
+}
+td{
+  font-family: 'Athiti', sans-serif;
+}
+thead th{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+h2{
+  font-family: 'Athiti', cursive;
+  font-weight: bolder;
+  background-color: ;
+  color:#000099;
+}

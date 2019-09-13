@@ -1,0 +1,37 @@
+.head-part {
+  margin-top: 30px;
+  text-align: center;
+}
+
+table, th, .ramid, .destination, .postcode, .bottom {
+  text-align: center;
+}
+
+input[type="text"] {
+  border: none;
+  width: 100%;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom{
+  margin-bottom: 100px;
+}
+
+@media print {
+  .ramid, .noshow, .bottom {
+    display: none;
+  }
+}
+
+span.noter {
+  margin-left: 250px;
+}
+
+input.no{
+  border: none;
+  width: 5%;
+	font-size: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid black;
+}

@@ -1,0 +1,80 @@
+@media print {
+  #noprint, #unprint, #noprints, #noprintss, #stop {
+    display:none;
+  }
+}
+select#regis_date {
+  border: none;
+  font-size:20px;
+}
+input {
+  border: none;
+  width: 100%;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+input.term{
+  border: none;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: ;
+}
+div.headshot{
+  text-align: center;
+  padding-left: 250px;
+}
+input.check {
+  border: none;
+  width: 50%;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid black;
+}
+input.checked {
+  border: none;
+  width: 30%;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid black;
+}
+input.grandtotal{
+  font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  font-weight: bold;
+}
+input.no{
+  border: none;
+  width: 5%;
+	font-size: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid black;
+}
+input.credit, input.regisdate, input.ramid {
+	text-align: center;
+}
+input.total, .grandtotal, .datefee, .keepcost {
+	text-align: right;
+}
+table, th{
+	text-align: center;
+}
+tbody {
+    border: 3px solid #ccc;
+}
+td.borderd {
+    border: 1px solid #ccc;
+    background-color: none;
+}
+td.borderden, tr#borderer {
+	border: 3px solid #ccc;
+	background-color: none;
+}
+.number {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+th {
+  font-size: 18px;
+  border: 1px solid #ccc;
+}

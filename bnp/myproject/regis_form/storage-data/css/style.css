@@ -1,0 +1,79 @@
+.date-select {
+    font-family: 'Open Sans', sans-serif;
+}
+
+input.showCode {
+    font-size: 0.9em;
+}
+
+input#date1 {
+    border-color: red;
+    color: red;
+    font-size: 0.9em;
+}
+
+input#date2 {
+    border-color: blue;
+    color: blue;
+    font-size: 0.9em;
+}
+
+input#date3 {
+    border-color: green;
+    color: green;
+    font-size: 0.9em;
+}
+
+input#date4 {
+    border-color: purple;
+    color: purple;
+    font-size: 0.9em;
+}
+
+@font-face {
+    font-family: PrintAble4U;
+    src: url('../../../../font/PrintAble4U.ttf')format('truetype');
+}
+
+h2 {
+    text-align: center;
+    text-decoration: wavy;
+}
+
+h2,
+h3,
+table {
+    font-family: 'PrintAble4U';
+    /*font-size: 1.5rem;
+     line-height: 1.5rem;
+    letter-spacing: 0.8rem; */
+}
+
+.adfirst,
+table {
+    min-width: 100px;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+tr.border_bottom td {
+    border-bottom: 1pt solid black;
+}
+
+body {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+thead th {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.showCode, .showDate {
+    text-align: center;
+}
